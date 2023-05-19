@@ -1,0 +1,110 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 10%;
+
+   
+   ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+   }
+   li{
+    a{
+        text-decoration: none;
+        color: #151515;
+        transition: 0.5s ease-in-out;
+        font-family: 'Inter', sans-serif;
+        &:hover{
+            color:#F35F2F;
+            border-bottom: 1px solid #F35F2F
+        }
+    }
+   }
+ 
+.close-btn{
+    display: none;
+    color: #F35F2F;
+}
+button{
+    padding: 16px 32px;
+    border: none;
+    background-color: #F35F2F;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: #F35F2F;
+            background-color: #fff;
+        }
+
+}
+}
+.home{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    // background-color: #e7f0fe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    .title{
+        width: 50%;
+    }
+    h1{
+        font-size: 72px;
+        font-family: 'Space Grotesk', sans-serif;
+        color: #2e373c;
+        margin-bottom: 24px;
+
+    }
+    h6{
+        font-size: 18px;
+        line-height: 20px;
+        font-family: 'Inter', sans-serif;
+        color: #42484b;
+    }
+    button{
+        padding: 16px 32px;
+        border: none;
+        background-color: #F35F2F;
+        border-radius: 10px;
+        color: #fff;
+        margin-top: 5vh;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: #F35F2F;
+            background-color: #fff;
+        }
+    }
+}
+.left-img{
+    width: 50%;
+    img{
+        width: 100%;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.services{
+   .boxs{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+   }
+}
